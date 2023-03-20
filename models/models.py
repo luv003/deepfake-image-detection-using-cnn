@@ -13,7 +13,7 @@ def create_model():
      input_shape = (224,224,3)
      activation = 'relu'
      padding = 'same'
-     droprate = 0.1 
+     droprate = 0.4
      epsilon=0.001
 
      model = Sequential()
